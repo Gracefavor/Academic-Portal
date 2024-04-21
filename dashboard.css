@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+} 
+
+.menu {
+    background-color:brown;
+    margin-bottom: -1.4rem;
+    margin-left: -17rem;
+    width: 20%;
+    margin-right: 5rem;
+    border-top-right-radius: 0.7rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.icon {
+    margin-bottom: -0.1rem;
+    margin-right: 0.1rem;
+}
+.image {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+    margin-left: 5.4rem;
+}
+
+.menu ul {
+    margin-left: 2rem;
+    list-style-type: none;
+}
+
+.menu ul li {
+    margin-top: 2rem;
+    margin-left: -1.5rem;
+}
+
+.menu ul .dash a  {
+    padding: 1rem 5.65rem 1rem 2.8rem;
+}
+
+.menu ul .dash a:hover  {
+    background-color: orangered;
+}
+
+.menu ul .regis a {
+    padding: 1rem 4.7rem 1rem 2.8rem;
+}
+
+.menu ul .regis a:hover  {
+    background-color: orangered;
+}
+
+.menu ul .fee a {
+    padding: 1rem 9.6rem 1rem 2.8rem;
+}
+
+.menu ul .fee a:hover  {
+    background-color: orangered;
+}
+.menu ul .result a {
+    padding: 1rem 7.6rem 1rem 2.8rem;
+}
+
+.menu ul .result a:hover  {
+    background-color: orangered;
+}
+
+
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 650;
+}
+
+i {
+    margin-right: 0.7rem;
+}
+.menu p{
+    margin-top: 15rem;
+}
+
+.menu p a {
+ text-decoration: none;
+ color:#fff;
+ margin-left: 2rem;
+ font-weight: 650;
+}
+
+.menu p a:hover {
+    color: orangered;
+    text-decoration: underline;
+}
+
+.side {
+    margin-top: 1rem;
+    margin-left: -13rem;
+}
+
+.side h2{
+    text-align: center;
+    color: brown;
+}
+
+.side h4 {
+    color: brown;
+}
+
+.side .section-1 {
+    background-color: brown;
+    padding: 0.4rem;
+    border-radius: 1rem;
+}
+ .section-1 ul {
+    list-style-type: none;
+ }
+ .section-1 ul li {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding: 0.6rem 2rem;
+    font-size: 1rem;
+    background-color: #fff;
+    border-radius: 0.4rem;
+
+ }
+ 
+ .side .section-2 {
+    background-color: brown;
+    padding: 0.4rem;
+    border-radius: 1rem;
+}
+ .section-2 ul {
+    list-style-type: none;
+ }
+ .section-2 ul li {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding: 0.6rem 2rem;
+    font-size: 1rem;
+    background-color: #fff;
+    border-radius: 0.4rem;
+
+ }
+
+
+
