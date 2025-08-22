@@ -1,0 +1,26 @@
+DROP TABLE IF EXISTS student;
+DROP TABLE IF EXISTS courses;
+
+
+CREATE TABLE IF NOT EXISTS courses(
+	id SERIAL PRIMARY KEY,
+	NAME varchar(100)
+);
+
+
+CREATE TABLE IF NOT EXISTS student(
+	id SERIAL  PRIMARY KEY,
+	NAME varchar(100) not null,
+	courses SERIAL,
+	FOREIGN KEY (courses) REFERENCES courses(id)
+);
+
+ALTER TABLE student
+ADD GENDER VARCHAR(6),
+ADD STUDENTID varchar(10);
+
+INSERT INTO COURSES (NAME) VALUES ('database'), ('information theory');
+INSERT INTO COURSES (NAME) VALUES ('software eng');
+
+INSERT INTO STUDENT (NAME, GENDER, STUDENTID) VALUES('FLORENCE', 'FEMALE', 'UEB1102322');
+SELECT * FROM student;
